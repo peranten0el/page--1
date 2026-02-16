@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 3 - Education & Skills</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts (same style as page 2) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e9e4dc;
+            font-family: 'Poppins', sans-serif;
+            color: #222;
+            text-align: center;
+        }
+
+        main {
+            padding: 60px 20px;
+        }
+
+        /* Section Titles */
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 40px;
+            color: #8b4513;
+            margin-bottom: 50px;
+        }
+
+        /* Education Layout */
+        .education-container {
+            display: flex;
+            justify-content: center;
+            gap: 80px;
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+        }
+
+        .school {
+            width: 260px;
+        }
+
+        .school h3 {
+            font-style: italic;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+
+        .school .line {
+            width: 100%;
+            height: 2px;
+            background-color: #c5a66a;
+            margin: 10px 0;
+        }
+
+        .school p {
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+
+        /* Skills Section */
+        .skills-text {
+            max-width: 800px;
+            margin: 0 auto 80px;
+            font-size: 16px;
+            line-height: 1.8;
+        }
+
+        /* Back Button */
+        .back {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: 1px solid #8b4513;
+            color: #8b4513;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+
+        .back:hover {
+            background-color: #8b4513;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<main>
+
+    <div class="section-title">Education</div>
+
+    <div class="education-container">
+
+        <div class="school">
+            <h3>Puerto Princesa Elementary School</h3>
+            <div class="line"></div>
+            <p>2016 - 2021</p>
+        </div>
+
+        <div class="school">
+            <h3>General Emilio Aguinaldo National High School</h3>
+            <div class="line"></div>
+            <p>2022 - 2025</p>
+        </div>
+
+        <div class="school">
+            <h3>Unida Christian College</h3>
+            <div class="line"></div>
+            <p>2026 - 2027</p>
+        </div>
+
+    </div>
+
+    <div class="section-title">Skills</div>
+
+    <div class="skills-text">
+        I am a diligent student with strong determination and perseverance,
+        always striving to complete tasks even when faced with challenges.
+        I have learned patience, time management, and stress management by
+        balancing schoolwork and personal responsibilities. I am also adaptable
+        and ready to face changes in life and learning with a positive mindset.
+    </div>
+
+    <a href="page2.html" class="back">← Back to Page 2</a>
+
+</main>
+
+</body>
+</html>
