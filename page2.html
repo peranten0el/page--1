@@ -3,47 +3,138 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Final Project - Page 2</title>
+  <title>Personal Portfolio - About Me</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #e6ecff;
-      color: #333;
       margin: 0;
       padding: 0;
-      text-align: center;
+      background-color: #e9e4dc;
+      font-family: 'Poppins', sans-serif;
+      color: #222;
     }
-    header {
-      background-color: #3c5db3;
-      color: white;
-      padding: 15px;
-    }
+
     main {
       padding: 40px 20px;
     }
-    a {
-      display: inline-block;
-      margin-top: 20px;
-      text-decoration: none;
-      color: white;
-      background-color: #3c5db3;
-      padding: 10px 18px;
-      border-radius: 4px;
+
+    /* ABOUT SECTION */
+    .about-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 60px;
+      flex-wrap: wrap;
     }
-    a:hover {
-      background-color: #2c4789;
+
+    .about-text {
+      max-width: 500px;
+      text-align: left;
+    }
+
+    .about-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 35px;
+      font-style: italic;
+      color: #8b4513;
+      margin-bottom: 20px;
+    }
+
+    .about-text p {
+      line-height: 1.6;
+      font-size: 16px;
+    }
+
+    .about-image img {
+      width: 320px;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    /* PERSONAL EXPERIENCE SECTION */
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 40px;
+      color: #8b4513;
+      margin-top: 80px;
+      text-align: center;
+    }
+
+    .section-content {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: center;
+      line-height: 1.8;
+      font-size: 16px;
+      padding: 0 10px;
+    }
+
+    /* BACK LINK */
+    .back {
+      display: block;
+      text-align: center;
+      margin-top: 40px;
+      text-decoration: none;
+      font-size: 16px;
+      color: black;
+    }
+
+    .back:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
-<body>
-  <header>
-    <h2>Page 2</h2>
-  </header>
 
+<body>
   <main>
-    <p>This is Page 2 of my website.</p>
-    <p>I just added this to complete the requirement and link it back to the home page.</p>
-    <a href="index.html">Back to Home</a>
+
+    <!-- ABOUT ME -->
+    <div class="about-section">
+      <div class="about-text">
+        <div class="about-title">About Me</div>
+        <p>
+          I am a student eager to learn in life. I believe that every experience,
+          challenge, and opportunity has a lesson to teach. I value perseverance,
+          curiosity, and teamwork, and I strive to become a better person every day.
+          I want to graduate so that I can achieve my dreams, build a bright future,
+          and help my family and community.
+        </p>
+      </div>
+
+      <div class="about-image">
+        <!-- Exact filename ng picture mo -->
+        <img src="Messenger_creation_D7EF9971-28F4-4301-B0 3D-ECB22A58D152.jpeg" alt="My Photo">
+      </div>
+    </div>
+
+    <!-- PERSONAL EXPERIENCE -->
+    <div class="section-title">
+      Personal <br> experience & <br> challenge
+    </div>
+
+    <div class="section-content">
+      <p>
+        One of the most challenging experiences in my life was when my family went through a big change.
+        At first, it was hard to accept and stressful, but I learned to face the situation with more strength
+        and responsibility. I realized that life is not always easy, and patience, perseverance,
+        and a positive mindset are very important.
+      </p>
+
+      <p>
+        At the same time, I often get stressed with the amount of schoolwork, and sometimes I feel like giving up.
+        However, I feel joy when I finish each task. I learned that even small steps matter,
+        and perseverance and determination in studying always bring good results.
+        These experiences have taught me that no matter how difficult life may be,
+        there is always a way to overcome challenges and continue to grow stronger.
+      </p>
+    </div>
+
+    <a href="index.html" class="back">Back to Home</a>
+
   </main>
 </body>
 </html>
